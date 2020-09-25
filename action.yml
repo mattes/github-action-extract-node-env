@@ -5,6 +5,10 @@ inputs:
   key:
     description: "ENV key"
     required: true
+  set_env:
+    description: "Creates or updates an environment variable for any actions running next in a job."
+    required: false
+    default: "false"
 
 outputs:
   value:
