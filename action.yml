@@ -1,0 +1,16 @@
+name: "Extract ENV from Node"
+description: "Workaround to extract ENV variables from Node"
+
+inputs:
+  key:
+    description: "ENV key"
+    required: true
+
+outputs:
+  value:
+    description: "Value for ENV key" 
+
+runs:
+  using: 'node12'
+  main: 'index.js'
+
